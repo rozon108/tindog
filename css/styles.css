@@ -1,0 +1,182 @@
+body {
+  font-family: "Montserrat", "Ubuntu";
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+h1 {
+  font-family: "Montserrat-Black";
+  color: white;
+  font-size: 3 rem;
+  line-height: 1.5;
+}
+
+
+.container-fluid {
+  padding: 5% 12% 20%;
+ 
+}
+
+/* Title Section */
+  /* Nav bar */
+.navbar {
+  padding: 0 0 2.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.75rem;
+  font-weight: bold;
+}
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Light";
+}
+.nav-item {
+  padding: 0 18px;
+}
+
+/* Downnload-Button */
+.download-button {
+  margin: 1% 2%;
+}
+
+.title-image{
+  width: 22%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+
+}
+
+/* Feature */
+#features{
+  background-color: rgb(255, 255, 255);
+  position: relative;
+
+}
+.feature-row {
+  
+  padding: 3% 17%;
+
+}
+.feature-column {
+  text-align: center;
+}
+.feature-icons {
+  font-size: 4rem; /* instead of this add 'fa-4x' class  */
+  color: #ef8172;
+  margin: 5px;
+}
+.feature-icons:hover {
+  color: #ff4c68;
+}
+.feature-title {
+    font-weight:600;
+  font-size: 1.5rem;
+}
+.feature-summary {
+  color: #8f8f8f;
+  padding: 0 15%;
+}
+
+/* testimonials */
+#testimonials{
+    background-color:#ef8172 ;
+    
+    color: white;
+}
+.container-testimonials{
+    text-align: center;
+}
+.testimonial-text{
+    font-family: "Montserrat-Bold";
+  
+  font-size: 3 rem; 
+  line-height: 1.5;
+}
+.img-testimonials{
+    width: 10%;
+    border-radius: 50%;
+}
+div#testimonials-carousel-container {
+  padding: 2% 5%;
+}
+
+
+/* press */
+#press{
+    background-color:#ef8172 ;
+    padding-bottom: 2%;
+    text-align: center;
+}
+.press-image{
+    display: inline-block;
+    padding: 1%;
+    width:15%;
+}
+
+/* Prices */
+section#pricing{
+  padding: 2% 1%;
+}
+.pricing-plans {
+  padding: 1% 1.5%;
+}
+.price-card{
+  margin:1%;
+}
+
+/* CTA */
+section#cta{
+  padding: 4%;
+  background-color: #ff4c68;
+  text-align: center;
+}
+.cta-title{
+  font-family: 'Montserrat-Black';
+  font-weight: bold;
+  color: whitesmoke;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/*
+we can just add .download-button class instead of writing new class 
+.cta-button{
+  margin: 1rem;
+} */ 
+
+
+/* Footer */
+#footer{
+  text-align: center;
+  padding: 2% 5% 0%;
+}
+.footer-links{ 
+  margin: 0;
+  
+}
+
+
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    width: 70%;
+    padding: 2rem 0 0;
+  }}
+  
+@media (min-width:1024px){
+  .container-fluid{
+    min-height: 100vh;
+  }
+   
+}
+
+
+
